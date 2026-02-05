@@ -1,0 +1,21 @@
+.contact-list {
+  list-style: none;
+}
+
+.contact-list li {
+  margin-bottom: 12px;
+}
+
+.contact-label {
+  color: var(--text-secondary);
+  font-size: 14px;
+  display: inline-block;
+  width: 80px;
+}
+
+@media (max-width: 480px) {
+  .contact-label {
+    display: block;
+    margin-bottom: 4px;
+  }
+}

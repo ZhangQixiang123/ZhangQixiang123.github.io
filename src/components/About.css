@@ -1,0 +1,8 @@
+#about p {
+  color: var(--text-primary);
+  margin-bottom: 16px;
+}
+
+#about p:last-child {
+  margin-bottom: 0;
+}
